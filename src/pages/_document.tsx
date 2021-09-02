@@ -1,5 +1,12 @@
 import React from "react";
-import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document';
+import Document, {
+    Html,
+    Head,
+    Main,
+    NextScript,
+    DocumentContext,
+    DocumentInitialProps,
+} from 'next/document';
 import { ServerStyleSheets } from '@material-ui/styles';
 
 export default class MyDocument extends Document {
@@ -8,10 +15,12 @@ export default class MyDocument extends Document {
 
         const sheets = new ServerStyleSheets(),
             originalRenderPage = ctx.renderPage;
-
-        ctx.renderPage = () => originalRenderPage({
-            enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
-        });
+            
+            ctx.renderPage = () =>
+            originalRenderPage({
+                enhanceApp: (App) => (props) =>
+                    sheets.collect(<App {...props} />),
+            });
 
         const InitialProps = await Document.getInitialProps(ctx);
 
