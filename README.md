@@ -1,6 +1,12 @@
 # Plataforma E-Diaristas
 
-## Descrição do Projeto:
+<p align="center">
+  <a href="https://ant.design">
+    <img width="200" src="./public/img/logos/zascha.svg">
+  </a>
+</p>
+
+## Descrição do Projeto:[#Sobre]
 
 <p align="center">Plataforma estruturada para o cadastro de diaristas e pessoas que desejam adquirir o serviço de limpeza.</p>
 
@@ -69,7 +75,7 @@ Acesse <http://localhost:3000>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
--   [Expo](https://expo.io/)
+
 -   [Node.js](https://nodejs.org/en/)
 -   [React](https://pt-br.reactjs.org/)
 -   [React Native](https://reactnative.dev/)
