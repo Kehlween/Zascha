@@ -35,7 +35,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 --------------------------------------------------------------
 
-##INSTALL PRETTIER
+##INSTALL: Prettier (Extensão)
 
 > npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
@@ -53,3 +53,15 @@ Após a instalação: CRTL + SHIFT + p -> Preferences (UI)
 ##INSTALL EditorConfig for VS Code (Extensão)
 
 1º Vai na raíz do projeto, clique no botão direito e vai em ".editorconfig"
+
+--------------------------------------------------------------
+
+##INSTALL: indent-rainbow (Extensão)
+
+A partir de agora você irá enxergar cores na indentação do código.
+
+--------------------------------------------------------------
+
+##INSTALL: Rainbow Brackets (Extensão)
+
+Adiciona cores em  ({[([])]})
