@@ -22,10 +22,10 @@
 <!--te-->
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Status do projeto 🚀 Em construção...  🚧
 </h4>
 
-### Features
+### O que há disponível?
 
 -   [x] Cadastro de usuário
 -   [ ] Cadastro de cliente
@@ -33,37 +33,39 @@
 
 ---
 
-### Para rodar o projeto
+# Para rodar o projeto
 
-# Clone este repositório
+### Clone este repositório
 
 $ git clone https://github.com/Kehlween/zascha.git
 
-# Acesse a pasta do projeto no terminal/cmd
+### Acesse a pasta do projeto no terminal/cmd
 
 $ cd zascha
 
-# Vá para a pasta server
+### Vá para a pasta server
 
 $ cd server
 
-# Instale as dependências
+### Instale as dependências
 
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+### Execute a aplicação em modo de desenvolvimento
 
 $ npm run dev
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+### O servidor inciará na porta:3000
 
-# Abra a página
+Acesse <http://localhost:3000>
+
+### Abra a página
 
 'pages/index.tsx'
 
 ---
 
-## INSTALL: Prettier (Extensão)
+### INSTALL: Prettier (Extensão)
 
 > npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
@@ -78,25 +80,25 @@ Após a instalação: CRTL + SHIFT + p -> Preferences (UI)
 
 ---
 
-## INSTALL EditorConfig for VS Code (Extensão)
+### INSTALL EditorConfig for VS Code (Extensão)
 
 1º Vai na raíz do projeto, clique no botão direito e vai em ".editorconfig"
 
 ---
 
-## INSTALL: indent-rainbow (Extensão)
+### INSTALL: indent-rainbow (Extensão)
 
 A partir de agora você irá enxergar cores na indentação do código.
 
 ---
 
-## INSTALL: Rainbow Brackets (Extensão)
+### INSTALL: Rainbow Brackets (Extensão)
 
 Adiciona cores em ({[([])]})
 
 ---
 
-## INFOS Vercel:
+### INFOS Vercel:
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
