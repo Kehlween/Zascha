@@ -49,3 +49,7 @@ Após a instalação: CRTL + SHIFT + p -> Preferences (UI)
 6º Configurar o arquivo acima.
 
 --------------------------------------------------------------
+
+##INSTALL EditorConfig for VS Code (Extensão)
+
+1º Vai na raíz do projeto, clique no botão direito e vai em ".editorconfig"
