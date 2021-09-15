@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Document, {
     Html,
     Head,
@@ -10,13 +10,13 @@ import Document, {
 import { ServerStyleSheets } from '@material-ui/styles';
 
 export default class MyDocument extends Document {
-
-    static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
-
+    static async getInitialProps(
+        ctx: DocumentContext
+    ): Promise<DocumentInitialProps> {
         const sheets = new ServerStyleSheets(),
             originalRenderPage = ctx.renderPage;
-            
-            ctx.renderPage = () =>
+
+        ctx.renderPage = () =>
             originalRenderPage({
                 enhanceApp: (App) => (props) =>
                     sheets.collect(<App {...props} />),
