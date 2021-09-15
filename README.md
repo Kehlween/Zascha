@@ -1,22 +1,69 @@
-## COMEÇANDO
+# Plataforma E-Diaristas
 
-Para rodar o projeto
+## Descrição do Projeto:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">Plataforma estruturada para o cadastro de diaristas e pessoas que desejam adquirir o serviço de limpeza.</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Tabela de conteúdos
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<!--ts-->
 
+-   [Sobre](#Sobre)
+-   [Tabela de Conteudo](#tabela-de-conteudo)
+-   [Instalação](#instalacao)
+-   [Como usar](#como-usar)
+    -   [Pre Requisitos](#pre-requisitos)
+    -   [Local files](#local-files)
+    -   [Remote files](#remote-files)
+    -   [Multiple files](#multiple-files)
+    -   [Combo](#combo)
+-   [Tests](#testes)
+-   [Tecnologias](#tecnologias)
+<!--te-->
 
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
 
---------------------------------------------------------------
+### Features
 
-##INSTALL: Prettier (Extensão)
+-   [x] Cadastro de usuário
+-   [ ] Cadastro de cliente
+-   [ ] Cadastro de produtos
+
+---
+
+### Para rodar o projeto
+
+# Clone este repositório
+
+$ git clone https://github.com/Kehlween/zascha.git
+
+# Acesse a pasta do projeto no terminal/cmd
+
+$ cd zascha
+
+# Vá para a pasta server
+
+$ cd server
+
+# Instale as dependências
+
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+
+$ npm run dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
+# Abra a página
+
+'pages/index.tsx'
+
+---
+
+## INSTALL: Prettier (Extensão)
 
 > npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
@@ -29,28 +76,27 @@ Após a instalação: CRTL + SHIFT + p -> Preferences (UI)
 5º Criar arquivo: "prettier.config.js" (Para manter a configuração em outros vscode)
 6º Configurar o arquivo acima.
 
---------------------------------------------------------------
+---
 
-##INSTALL EditorConfig for VS Code (Extensão)
+## INSTALL EditorConfig for VS Code (Extensão)
 
 1º Vai na raíz do projeto, clique no botão direito e vai em ".editorconfig"
 
---------------------------------------------------------------
+---
 
-##INSTALL: indent-rainbow (Extensão)
+## INSTALL: indent-rainbow (Extensão)
 
 A partir de agora você irá enxergar cores na indentação do código.
 
---------------------------------------------------------------
+---
 
-##INSTALL: Rainbow Brackets (Extensão)
+## INSTALL: Rainbow Brackets (Extensão)
 
-Adiciona cores em  ({[([])]})
+Adiciona cores em ({[([])]})
 
+---
 
---------------------------------------------------------------
-
-##INFOS Vercel:
+## INFOS Vercel:
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
@@ -60,8 +106,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
