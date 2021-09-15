@@ -14,9 +14,9 @@ const Template: ComponentStory<typeof UserInformation> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-    name: 'Akira Hanashiro',
-    picture: 'https://github.com/hanashiro.png',
-    rating: 3,
+    name: 'Kehlween Wirmond',
+    picture: 'https://github.com/kehlween.png',
+    rating: 4,
     description: 'Web Developer',
     isRating: true,
 };

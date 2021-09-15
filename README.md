@@ -32,3 +32,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+--------------------------------------------------------------
+
+##INSTALL PRETTIER
+
+> npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+
+Após a instalação: CRTL + SHIFT + p -> Preferences (UI)
+
+1º Pesquisa: "Default Formatter";
+2º Selecionar: "Prettier - Code formatter";
+3º Pesquisa: "Format on";
+4º Selecione as 2 primeiras opções.
+5º Criar arquivo: "prettier.config.js" (Para manter a configuração em outros vscode)
+6º Configurar o arquivo acima.
+
+--------------------------------------------------------------
