@@ -17,3 +17,5 @@ Default.args = {
     selected: 'Identificação',
     items: ['Detalhes', 'Identificação', 'Pagamento'],
 };
+
+//Serve como padrão para o próximo projeto//

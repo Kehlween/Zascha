@@ -23,3 +23,5 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ selected, items }) => {
 };
 
 export default Breadcrumb;
+
+//Serve como padrão para o próximo projeto//
