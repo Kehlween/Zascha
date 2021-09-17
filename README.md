@@ -75,12 +75,12 @@ Acesse <http://localhost:3000>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-
 -   [Node.js](https://nodejs.org/en/)
 -   [React](https://pt-br.reactjs.org/)
 -   [React Native](https://reactnative.dev/)
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [Material-ui](https://material-ui.com/)
+-   [React Hook Form](https://react-hook-form.com/)
 
 ---
 
