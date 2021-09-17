@@ -116,3 +116,13 @@ A partir de agora você irá enxergar cores na indentação do código.
 Adiciona cores em ({[([])]})
 
 ---
+
+### INSTALL: uuid
+
+npm i @types/uuid
+
+---
+
+### INSTALL: Password Strength
+
+npm i check-password-strength
