@@ -1,12 +1,12 @@
 # Plataforma E-Diaristas
 
 <p align="center">
-  <a href="https://ant.design">
+  <a href="https://zascha.com.br">
     <img width="200" src="./public/img/logos/zascha.svg">
   </a>
 </p>
 
-## Descrição do Projeto:[#Sobre]
+<h1 align="center">Descrição do Projeto</h1>
 
 <p align="center">Plataforma estruturada para o cadastro de diaristas e pessoas que desejam adquirir o serviço de limpeza.</p>
 
